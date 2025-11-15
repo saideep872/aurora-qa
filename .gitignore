@@ -1,0 +1,29 @@
+# Environment variables - CRITICAL
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (optional)
+messages_dump.json
+messages_dump.csv
+
+# OS
+.DS_Store
+Thumbs.db
