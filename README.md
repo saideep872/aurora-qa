@@ -39,68 +39,53 @@
 AURORA Q&A SYSTEM - COMPREHENSIVE DATA ANALYSIS
 
 
-📊 DATASET OVERVIEW
-Total messages: 100
+#### 📊 DATASET OVERVIEW
+    Total messages: 100
 
 
-TEMPORAL ANALYSIS
+### TEMPORAL ANALYSIS
 
-Valid timestamps: 100
-Invalid timestamps: 0
-Future dates (anomaly): 0
-Very old dates (<2020): 0
-Date range: November 14, 2024 to November 04, 2025
-
-
-USER ANALYSIS
-Total unique users: 10
-Average messages per user: 10.00
-Users with single message: 0
-Users with multiple user_ids (inconsistency): 0
-
-Top 10 users by message count:
-  Sophia Al-Farsi: 16 messages
-  Fatima El-Tahir: 15 messages
-  Hans Müller: 11 messages
-  Layla Kawaguchi: 10 messages
-  Vikram Desai: 10 messages
-  Lily O'Sullivan: 10 messages
-  Armand Dupont: 8 messages
-  Thiago Monteiro: 8 messages
-  Lorenzo Cavalli: 7 messages
-  Amina Van Den Berg: 5 messages
+- **Valid timestamps: 100**
+- **Invalid timestamps: 0**
+- **Future dates (anomaly): 0**
+- **Very old dates (<2020): 0**
+- **Date range: November 14, 2024 to November 04, 2025**
 
 
-MESSAGE CONTENT ANALYSIS
-Empty messages: 0
-Very short messages (<10 chars): 0
-Very long messages (>500 chars): 0
-Average message length: 63.6 characters
-Duplicate messages: 0
-
-PRIVACY CONCERNS:
-  Messages with phone numbers: 7
-  Messages with email addresses: 0
-  Messages with credit card numbers: 0
+### USER ANALYSIS
+- **Total unique users: 10**
+- **Average messages per user: 10.00**
+- **Users with single message: 0**
+- **Users with multiple user_ids (inconsistency): 0**
 
 
-DATA CONSISTENCY ANALYSIS
+### MESSAGE CONTENT ANALYSIS
+- **Empty messages:** 0
+- **Very short messages (<10 chars):** 0
+- **Very long messages (>500 chars):** 0
+- **Average message length:** 63.6 characters
+- **Duplicate messages:** 0
 
-Missing fields:
-Name inconsistencies (same person, different formatting): 0
+### PRIVACY CONCERNS
+- **Messages with phone numbers:** 7
+- **Messages with email addresses:** 0
+- **Messages with credit card numbers:** 0
 
-TOPIC DISTRIBUTION
+### DATA CONSISTENCY ANALYSIS
+- **Missing fields:** 0
+- **Name inconsistencies (same person, different formatting):** 0
 
-  travel: 17 messages
-  accommodation: 11 messages
-  dining: 10 messages
-  entertainment: 7 messages
-  preferences: 5 messages
-  payment: 4 messages
-  No topic match: 46 messages
+### TOPIC DISTRIBUTION
+- **travel:** 17 messages
+- **accommodation:** 11 messages
+- **dining:** 10 messages
+- **entertainment:** 7 messages
+- **preferences:** 5 messages
+- **payment:** 4 messages
+- **No topic match:** 46 messages
 
+### KEY FINDINGS & ANOMALIES
+- **7 messages contain phone numbers (privacy risk)**
 
-KEY FINDINGS & ANOMALIES
-   7 messages contain phone numbers (privacy risk)
 
 ================================================================================
