@@ -35,6 +35,7 @@
 2. **Embedding Similarity**: Uses OpenAI embeddings to find semantically similar messages
 3. **Data Sanitization**: Removes sensitive data (IDs, PII) before sending to LLM
 4. **LLM Reasoning**: GPT-4o-mini reasons about top candidates and generates direct answers
+
 AURORA Q&A SYSTEM - COMPREHENSIVE DATA ANALYSIS
 ================================================================================
 
