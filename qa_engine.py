@@ -127,7 +127,7 @@ def find_answer(question: str):
         scored.append((similarity, msg))  # Storing original message
     
     # Getting top candidates (more if person-matched for better context)
-    top_count = 20 if person_matched else 10
+    top_count = 3 if person_matched else 10
     top_candidates = sorted(scored, key=lambda x: x[0], reverse=True)[:top_count]
     top_messages = [msg for _, msg in top_candidates]
     
