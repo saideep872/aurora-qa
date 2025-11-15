@@ -1,6 +1,7 @@
 # app.py
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, HTTPException
 from qa_engine import find_answer
+import traceback
 
 app = FastAPI(
     title="Aurora Q&A System",
@@ -22,5 +23,16 @@ def ask(question: str = Query(..., description="Enter a natural-language questio
     """
     API endpoint that receives a question and returns an answer.
     """
-    result = find_answer(question)
-    return result
+    try:
+        result = find_answer(question)
+        return result
+    except Exception as e:
+        # Log the error (will appear in Cloud Logging)
+        print(f"Error processing question: {str(e)}")
+        print(traceback.format_exc())
+        
+        # Return a user-friendly error
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error processing question: {str(e)}"
+        )
