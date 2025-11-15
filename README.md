@@ -37,23 +37,22 @@
 4. **LLM Reasoning**: GPT-4o-mini reasons about top candidates and generates direct answers
 
 AURORA Q&A SYSTEM - COMPREHENSIVE DATA ANALYSIS
-================================================================================
+
 
 📊 DATASET OVERVIEW
 Total messages: 100
 
-================================================================================
+
 TEMPORAL ANALYSIS
-================================================================================
+
 Valid timestamps: 100
 Invalid timestamps: 0
 Future dates (anomaly): 0
 Very old dates (<2020): 0
 Date range: November 14, 2024 to November 04, 2025
 
-================================================================================
+
 USER ANALYSIS
-================================================================================
 Total unique users: 10
 Average messages per user: 10.00
 Users with single message: 0
@@ -71,9 +70,8 @@ Top 10 users by message count:
   Lorenzo Cavalli: 7 messages
   Amina Van Den Berg: 5 messages
 
-================================================================================
+
 MESSAGE CONTENT ANALYSIS
-================================================================================
 Empty messages: 0
 Very short messages (<10 chars): 0
 Very long messages (>500 chars): 0
@@ -85,15 +83,14 @@ PRIVACY CONCERNS:
   Messages with email addresses: 0
   Messages with credit card numbers: 0
 
-================================================================================
+
 DATA CONSISTENCY ANALYSIS
-================================================================================
+
 Missing fields:
 Name inconsistencies (same person, different formatting): 0
 
-================================================================================
 TOPIC DISTRIBUTION
-================================================================================
+
   travel: 17 messages
   accommodation: 11 messages
   dining: 10 messages
@@ -102,9 +99,8 @@ TOPIC DISTRIBUTION
   payment: 4 messages
   No topic match: 46 messages
 
-================================================================================
+
 KEY FINDINGS & ANOMALIES
-================================================================================
    7 messages contain phone numbers (privacy risk)
 
 ================================================================================
